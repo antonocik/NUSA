@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t">
+  <title id="t">Terminal Kecil: terminal bus kecil dengan atap tunggal di Makassar.</title>
+  <rect width="800" height="600" fill="#E4DBCB"/>
+  <rect y="460" width="800" height="140" fill="#CFC5B4"/>
+  <path d="M0 460h800" stroke="#12100E" stroke-width="1.5" opacity=".45"/>
+
+  <!-- single roof canopy -->
+  <path d="M60 260 L400 160 L740 260 L740 280 L60 280 Z" fill="#2F3A33"/>
+  <path d="M60 280 L740 280" stroke="#12100E" stroke-width="2" opacity=".6"/>
+  <!-- polycarbonate strips -->
+  <g stroke="#E4DBCB" stroke-width="3" opacity=".35">
+    <path d="M120 262 L400 178M200 262 L400 198M280 262 L400 218M360 262 L400 238M440 262 L400 238M520 262 L400 218M600 262 L400 198M680 262 L400 178"/>
+  </g>
+
+  <!-- columns -->
+  <g fill="#12100E">
+    <rect x="120" y="280" width="14" height="180"/>
+    <rect x="260" y="280" width="14" height="180"/>
+    <rect x="400" y="280" width="14" height="180"/>
+    <rect x="540" y="280" width="14" height="180"/>
+    <rect x="680" y="280" width="14" height="180"/>
+  </g>
+
+  <!-- platform -->
+  <rect x="60" y="460" width="680" height="12" fill="#12100E" opacity=".85"/>
+
+  <!-- buses -->
+  <g>
+    <rect x="90" y="390" width="120" height="56" fill="#B4432A"/>
+    <rect x="90" y="390" width="120" height="14" fill="#8E3421"/>
+    <rect x="100" y="404" width="28" height="26" fill="#9FB2AA"/>
+    <rect x="132" y="404" width="28" height="26" fill="#9FB2AA"/>
+    <rect x="164" y="404" width="28" height="26" fill="#9FB2AA"/>
+    <circle cx="110" cy="450" r="8" fill="#12100E"/>
+    <circle cx="190" cy="450" r="8" fill="#12100E"/>
+  </g>
+  <g>
+    <rect x="270" y="400" width="110" height="50" fill="#CFC5B4"/>
+    <rect x="270" y="400" width="110" height="12" fill="#6F5136"/>
+    <rect x="278" y="412" width="24" height="22" fill="#9FB2AA"/>
+    <rect x="306" y="412" width="24" height="22" fill="#9FB2AA"/>
+    <rect x="334" y="412" width="24" height="22" fill="#9FB2AA"/>
+    <circle cx="288" cy="452" r="7" fill="#12100E"/>
+    <circle cx="362" cy="452" r="7" fill="#12100E"/>
+  </g>
+  <g>
+    <rect x="470" y="395" width="130" height="55" fill="#B4432A"/>
+    <rect x="470" y="395" width="130" height="14" fill="#8E3421"/>
+    <rect x="482" y="409" width="30" height="26" fill="#9FB2AA"/>
+    <rect x="516" y="409" width="30" height="26" fill="#9FB2AA"/>
+    <rect x="550" y="409" width="30" height="26" fill="#9FB2AA"/>
+    <circle cx="490" cy="452" r="8" fill="#12100E"/>
+    <circle cx="580" cy="452" r="8" fill="#12100E"/>
+  </g>
+
+  <!-- people -->
+  <g fill="#12100E" opacity=".7">
+    <circle cx="430" cy="430" r="7"/><rect x="426" y="437" width="8" height="18"/>
+    <circle cx="450" cy="434" r="6"/><rect x="447" y="440" width="6" height="14"/>
+    <circle cx="620" cy="428" r="7"/><rect x="616" y="435" width="8" height="18"/>
+    <circle cx="642" cy="432" r="6"/><rect x="639" y="438" width="6" height="14"/>
+  </g>
+
+  <!-- sun -->
+  <circle cx="680" cy="120" r="46" fill="#C9704A" opacity=".85"/>
+</svg>

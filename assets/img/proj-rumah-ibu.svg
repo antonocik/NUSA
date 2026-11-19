@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t">
+  <title id="t">Rumah Ibu: rumah multigenerasi dengan tiga sayap di Solo.</title>
+  <rect width="800" height="600" fill="#E4DBCB"/>
+  <rect y="460" width="800" height="140" fill="#CFC5B4"/>
+  <path d="M0 460h800" stroke="#12100E" stroke-width="1.5" opacity=".45"/>
+
+  <!-- courtyard garden center -->
+  <ellipse cx="400" cy="470" rx="110" ry="26" fill="#2F3A33" opacity=".18"/>
+  <g fill="#2F3A33">
+    <circle cx="400" cy="430" r="34"/>
+    <circle cx="372" cy="452" r="22"/>
+    <circle cx="428" cy="452" r="20"/>
+  </g>
+  <g fill="#6F7A5E">
+    <circle cx="382" cy="418" r="16"/>
+    <circle cx="418" cy="420" r="14"/>
+  </g>
+  <path d="M400 464V438" stroke="#12100E" stroke-width="4"/>
+
+  <!-- left wing -->
+  <g>
+    <rect x="90" y="260" width="200" height="200" fill="#B4432A"/>
+    <path d="M80 260 L190 190 L300 260 Z" fill="#8E3421"/>
+    <g fill="#9FB2AA">
+      <rect x="110" y="290" width="44" height="44"/>
+      <rect x="166" y="290" width="44" height="44"/>
+      <rect x="110" y="350" width="44" height="44"/>
+      <rect x="166" y="350" width="44" height="44"/>
+    </g>
+    <rect x="170" y="420" width="40" height="40" fill="#6F5136"/>
+  </g>
+
+  <!-- right wing -->
+  <g>
+    <rect x="510" y="260" width="200" height="200" fill="#B4432A"/>
+    <path d="M500 260 L610 190 L720 260 Z" fill="#8E3421"/>
+    <g fill="#9FB2AA">
+      <rect x="530" y="290" width="44" height="44"/>
+      <rect x="586" y="290" width="44" height="44"/>
+      <rect x="530" y="350" width="44" height="44"/>
+      <rect x="586" y="350" width="44" height="44"/>
+    </g>
+    <rect x="590" y="420" width="40" height="40" fill="#6F5136"/>
+  </g>
+
+  <!-- rear wing -->
+  <g>
+    <rect x="280" y="150" width="240" height="130" fill="#CFC5B4"/>
+    <path d="M270 150 L400 90 L530 150 Z" fill="#6F5136"/>
+    <g fill="#9FB2AA">
+      <rect x="300" y="170" width="40" height="34"/>
+      <rect x="348" y="170" width="40" height="34"/>
+      <rect x="396" y="170" width="40" height="34"/>
+      <rect x="444" y="170" width="40" height="34"/>
+      <rect x="300" y="212" width="40" height="34"/>
+      <rect x="348" y="212" width="40" height="34"/>
+      <rect x="396" y="212" width="40" height="34"/>
+      <rect x="444" y="212" width="40" height="34"/>
+    </g>
+  </g>
+
+  <!-- connecting paths -->
+  <g fill="#D8CFC0" stroke="#12100E" stroke-width="1" opacity=".5">
+    <rect x="290" y="360" width="40" height="100"/>
+    <rect x="470" y="360" width="40" height="100"/>
+  </g>
+
+  <!-- sun -->
+  <circle cx="120" cy="110" r="40" fill="#C9704A" opacity=".8"/>
+
+  <!-- foreground plants -->
+  <g fill="#2F3A33">
+    <circle cx="60" cy="460" r="20"/>
+    <circle cx="740" cy="460" r="20"/>
+  </g>
+</svg>

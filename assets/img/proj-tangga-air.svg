@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t">
+  <title id="t">Rumah Tangga Air: rumah vertikal dengan sumur cahaya dan tangga terbuka di Surabaya.</title>
+  <rect width="800" height="600" fill="#E4DBCB"/>
+  <rect y="470" width="800" height="130" fill="#CFC5B4"/>
+  <path d="M0 470h800" stroke="#12100E" stroke-width="1.5" opacity=".45"/>
+
+  <!-- ground floor plinth -->
+  <rect x="180" y="440" width="440" height="30" fill="#12100E" opacity=".85"/>
+
+  <!-- left brick mass -->
+  <rect x="180" y="120" width="150" height="320" fill="#B4432A"/>
+  <g fill="#8E3421">
+    <rect x="200" y="150" width="40" height="52"/>
+    <rect x="200" y="220" width="40" height="52"/>
+    <rect x="200" y="290" width="40" height="52"/>
+    <rect x="270" y="150" width="40" height="52"/>
+    <rect x="270" y="220" width="40" height="52"/>
+    <rect x="270" y="290" width="40" height="52"/>
+  </g>
+
+  <!-- right timber mass -->
+  <rect x="470" y="120" width="150" height="320" fill="#2F3A33"/>
+  <g fill="#6F5136">
+    <rect x="490" y="150" width="110" height="8" />
+    <rect x="490" y="178" width="110" height="8" />
+    <rect x="490" y="206" width="110" height="8" />
+    <rect x="490" y="234" width="110" height="8" />
+    <rect x="490" y="262" width="110" height="8" />
+    <rect x="490" y="290" width="110" height="8" />
+    <rect x="490" y="318" width="110" height="8" />
+    <rect x="490" y="346" width="110" height="8" />
+    <rect x="490" y="374" width="110" height="8" />
+    <rect x="490" y="402" width="110" height="8" />
+  </g>
+
+  <!-- central light well / water -->
+  <rect x="330" y="120" width="140" height="320" fill="#9FB2AA"/>
+  <g stroke="#E4DBCB" stroke-width="2" opacity=".6">
+    <path d="M340 400h120M340 360h120M340 320h120M340 280h120M340 240h120M340 200h120M340 160h120"/>
+  </g>
+
+  <!-- open staircase -->
+  <g stroke="#12100E" stroke-width="3" fill="none">
+    <path d="M330 440 L470 400 L330 360 L470 320 L330 280 L470 240 L330 200 L470 160 L330 120"/>
+  </g>
+  <g fill="#12100E" opacity=".7">
+    <rect x="326" y="438" width="8" height="4"/>
+    <rect x="466" y="398" width="8" height="4"/>
+    <rect x="326" y="358" width="8" height="4"/>
+    <rect x="466" y="318" width="8" height="4"/>
+    <rect x="326" y="278" width="8" height="4"/>
+    <rect x="466" y="238" width="8" height="4"/>
+    <rect x="326" y="198" width="8" height="4"/>
+    <rect x="466" y="158" width="8" height="4"/>
+  </g>
+
+  <!-- roof -->
+  <rect x="180" y="96" width="440" height="24" fill="#12100E"/>
+
+  <!-- rain chain -->
+  <g fill="#B4432A">
+    <circle cx="330" cy="120" r="4"/>
+    <circle cx="330" cy="140" r="4"/>
+    <circle cx="330" cy="160" r="4"/>
+    <circle cx="330" cy="180" r="4"/>
+  </g>
+
+  <!-- ground planting -->
+  <g fill="#2F3A33">
+    <circle cx="120" cy="470" r="26"/>
+    <circle cx="680" cy="470" r="22"/>
+  </g>
+  <g fill="#6F7A5E">
+    <circle cx="100" cy="458" r="16"/>
+    <circle cx="698" cy="460" r="14"/>
+  </g>
+</svg>

@@ -38,7 +38,7 @@ nusa-studio/
 ├── assets/
 │   ├── css/main.css           Seluruh design system dan aturan responsif
 │   ├── js/app.js              Loader, menu, filter, slider, form, kursor
-│   └── img/                   11 ilustrasi SVG, favicon, dan 7 kartu sosial PNG
+│   └── img/                   15 ilustrasi SVG, favicon, dan 11 kartu sosial PNG
 ├── robots.txt
 ├── sitemap.xml
 └── README.md
