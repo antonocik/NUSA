@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t3">
+  <title id="t3">Pasar Lama: kanopi beton berulang dengan lampu gantung dan deretan lapak pedagang.</title>
+  <rect width="800" height="600" fill="#E4DBCB"/>
+  <rect y="420" width="800" height="180" fill="#CFC5B4"/>
+
+  <!-- canopy roof -->
+  <rect x="0" y="80" width="800" height="26" fill="#12100E"/>
+  <path d="M0 106h800v18H0z" fill="#B4432A"/>
+  <g fill="#E4DBCB">
+    <path d="M70 124v-18h90v18zM240 124v-18h90v18zM410 124v-18h90v18zM580 124v-18h90v18z"/>
+  </g>
+
+  <!-- arches / columns -->
+  <g fill="#D8CFBE" stroke="#12100E" stroke-width="1.2" stroke-opacity=".28">
+    <path d="M40 420V250a60 60 0 0 1 120 0v170z"/>
+    <path d="M210 420V250a60 60 0 0 1 120 0v170z"/>
+    <path d="M380 420V250a60 60 0 0 1 120 0v170z"/>
+    <path d="M550 420V250a60 60 0 0 1 120 0v170z"/>
+  </g>
+  <g fill="#F6F2EA" opacity=".5">
+    <path d="M56 420V254a44 44 0 0 1 88 0v166z"/>
+    <path d="M226 420V254a44 44 0 0 1 88 0v166z"/>
+    <path d="M396 420V254a44 44 0 0 1 88 0v166z"/>
+    <path d="M566 420V254a44 44 0 0 1 88 0v166z"/>
+  </g>
+
+  <!-- hanging lamps -->
+  <g stroke="#12100E" stroke-width="1.5">
+    <path d="M140 124v96M310 124v70M480 124v96M650 124v70"/>
+  </g>
+  <g fill="#C9704A" stroke="#12100E" stroke-width="1.2">
+    <path d="M118 220h44l-8 22h-28z"/>
+    <path d="M288 194h44l-8 22h-28z"/>
+    <path d="M458 220h44l-8 22h-28z"/>
+    <path d="M628 194h44l-8 22h-28z"/>
+  </g>
+
+  <!-- stalls -->
+  <g>
+    <rect x="30" y="430" width="150" height="70" fill="#B4432A"/>
+    <rect x="30" y="430" width="150" height="12" fill="#8E3421"/>
+    <rect x="200" y="430" width="150" height="70" fill="#2F3A33"/>
+    <rect x="200" y="430" width="150" height="12" fill="#12100E"/>
+    <rect x="370" y="430" width="150" height="70" fill="#D6B78E"/>
+    <rect x="370" y="430" width="150" height="12" fill="#B08F63"/>
+    <rect x="540" y="430" width="150" height="70" fill="#B4432A"/>
+    <rect x="540" y="430" width="150" height="12" fill="#8E3421"/>
+  </g>
+  <g fill="#E4DBCB" opacity=".8">
+    <circle cx="70" cy="470" r="12"/><circle cx="96" cy="470" r="9"/><circle cx="122" cy="472" r="11"/>
+    <circle cx="240" cy="470" r="11"/><circle cx="268" cy="472" r="13"/><circle cx="296" cy="468" r="9"/>
+    <circle cx="410" cy="470" r="12"/><circle cx="438" cy="468" r="9"/>
+  </g>
+
+  <!-- people -->
+  <g fill="#12100E" opacity=".7">
+    <circle cx="180" cy="466" r="7"/><rect x="173" y="475" width="14" height="38" rx="6"/>
+    <circle cx="350" cy="482" r="6"/><rect x="344" y="490" width="12" height="30" rx="5"/>
+    <circle cx="520" cy="470" r="7"/><rect x="513" y="479" width="14" height="36" rx="6"/>
+    <circle cx="700" cy="478" r="6"/><rect x="694" y="486" width="12" height="32" rx="5"/>
+  </g>
+
+  <!-- floor pattern -->
+  <g stroke="#12100E" stroke-width="1" opacity=".12">
+    <path d="M0 520h800M0 552h800M0 584h800"/>
+    <path d="M100 520v64M220 520v64M340 520v64M460 520v64M580 520v64M700 520v64"/>
+  </g>
+
+  <text x="20" y="592" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="2.5" fill="#12100E" opacity=".55">RUANG PUBLIK · 2025</text>
+</svg>

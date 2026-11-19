@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" role="img" aria-labelledby="dt">
+  <title id="dt">Potongan tangga: anak tangga kayu, railing besi, dan cahaya dari skylight di atas.</title>
+  <rect width="1600" height="700" fill="#F6F2EA"/>
+
+  <!-- light shaft -->
+  <path d="M900 40h420l-80 660H820z" fill="#FBF8F1" opacity=".9"/>
+  <path d="M960 40h300l-60 660H900z" fill="#EFE7D8"/>
+
+  <!-- wall left -->
+  <rect x="0" y="0" width="760" height="700" fill="#E7E0D2"/>
+  <g stroke="#12100E" stroke-width="1" opacity=".1">
+    <path d="M0 100h760M0 200h760M0 300h760M0 400h760M0 500h760M0 600h760"/>
+  </g>
+
+  <!-- stair profile -->
+  <g fill="#B4432A">
+    <path d="M120 620h180v-60h160v-60h160v-60h160v-60h160v-60h160v-60h160v420H120z"/>
+  </g>
+  <g fill="#8E3421" opacity=".7">
+    <path d="M120 620h180v18H120zM300 560h160v18H300zM460 500h160v18H460zM620 440h160v18H620zM780 380h160v18H780zM940 320h160v18H940z"/>
+  </g>
+
+  <!-- stringer -->
+  <path d="M120 640l1000-360v40L120 680z" fill="#12100E" opacity=".85"/>
+
+  <!-- balustrade -->
+  <g stroke="#12100E" stroke-width="4" fill="none">
+    <path d="M140 560l980-350"/>
+    <path d="M160 560v70M300 512v70M460 452v70M620 392v70M780 332v70M940 272v70M1100 212v70"/>
+  </g>
+  <path d="M140 560l980-350" stroke="#C9704A" stroke-width="6" opacity=".9"/>
+
+  <!-- understair storage -->
+  <rect x="160" y="470" width="200" height="120" fill="#CFC5B4"/>
+  <rect x="160" y="470" width="200" height="10" fill="#12100E" opacity=".5"/>
+  <circle cx="260" cy="530" r="8" fill="#12100E" opacity=".6"/>
+
+  <!-- upper landing -->
+  <rect x="760" y="180" width="840" height="24" fill="#12100E"/>
+  <rect x="760" y="204" width="840" height="26" fill="#D8CFBE"/>
+  <path d="M760 180v520" stroke="#12100E" stroke-width="3" opacity=".6"/>
+
+  <!-- skylight -->
+  <rect x="900" y="0" width="420" height="18" fill="#12100E"/>
+  <g stroke="#12100E" stroke-width="2" opacity=".5">
+    <path d="M1000 18v120M1120 18v120M1240 18v120"/>
+  </g>
+  <rect x="960" y="18" width="300" height="120" fill="#8FA6A0" opacity=".35"/>
+
+  <!-- dust / light particles -->
+  <g fill="#C9704A" opacity=".35">
+    <circle cx="1010" cy="220" r="4"/><circle cx="1080" cy="280" r="3"/><circle cx="1160" cy="240" r="5"/>
+    <circle cx="1210" cy="330" r="3"/><circle cx="980" cy="360" r="4"/>
+  </g>
+
+  <!-- figure on stair -->
+  <g fill="#12100E" opacity=".7">
+    <circle cx="700" cy="352" r="14"/>
+    <path d="M686 368h30l10 60h-52z"/>
+    <path d="M690 428l-10 44M714 428l14 44" stroke="#12100E" stroke-width="7"/>
+  </g>
+
+  <!-- floor line -->
+  <path d="M0 640h1600" stroke="#12100E" stroke-width="2" opacity=".55"/>
+  <g stroke="#12100E" stroke-width="1" opacity=".2">
+    <path d="M40 660l-20 20M120 660l-20 20M200 660l-20 20M280 660l-20 20M360 660l-20 20M440 660l-20 20M520 660l-20 20M600 660l-20 20M680 660l-20 20M760 660l-20 20"/>
+  </g>
+
+  <g font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="2" fill="#12100E" opacity=".5">
+    <text x="40" y="60">POTONGAN TANGGA · SKALA 1:20</text>
+    <text x="1180" y="660">SKYLIGHT 1 200 × 600</text>
+  </g>
+</svg>

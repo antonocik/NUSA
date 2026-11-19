@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t1">
+  <title id="t1">Rumah Tumbuh: teras dalam dengan lengkung bata, kolam dangkal, dan pohon jambu.</title>
+  <rect width="800" height="600" fill="#E4DBCB"/>
+  <rect y="404" width="800" height="196" fill="#CFC5B4"/>
+  <path d="M0 404h800" stroke="#12100E" stroke-width="1.5" opacity=".45"/>
+
+  <!-- back wall with arch -->
+  <rect x="60" y="80" width="680" height="324" fill="#D8CFBE"/>
+  <g fill="#B4432A">
+    <path d="M120 404V262a52 52 0 0 1 104 0v142z"/>
+    <path d="M600 404V262a52 52 0 0 1 104 0v142z"/>
+  </g>
+  <g fill="#8E3421">
+    <path d="M136 404V266a36 36 0 0 1 72 0v138z"/>
+    <path d="M616 404V266a36 36 0 0 1 72 0v138z"/>
+  </g>
+  <rect x="248" y="196" width="304" height="208" fill="#2F3A33"/>
+  <g stroke="#E4DBCB" stroke-width="4" opacity=".65">
+    <path d="M324 196v208M400 196v208M476 196v208"/>
+  </g>
+  <rect x="60" y="80" width="680" height="18" fill="#12100E"/>
+  <rect x="60" y="80" width="680" height="324" fill="none" stroke="#12100E" stroke-width="1.2" opacity=".2"/>
+
+  <!-- floor + pool -->
+  <path d="M0 470h800" stroke="#12100E" stroke-width="1" opacity=".2"/>
+  <rect x="60" y="470" width="680" height="70" fill="#9FB2AA"/>
+  <rect x="60" y="470" width="680" height="70" fill="none" stroke="#12100E" stroke-width="1.2" opacity=".3"/>
+  <g stroke="#E4DBCB" stroke-width="2" opacity=".5">
+    <path d="M120 494h180M340 512h220M620 490h70M200 528h120M460 532h100"/>
+  </g>
+  <!-- terrace strips -->
+  <rect x="0" y="540" width="800" height="60" fill="#D8CFBE"/>
+  <path d="M0 540h800" stroke="#12100E" stroke-width="1" opacity=".22"/>
+
+  <!-- tree -->
+  <path d="M560 470V330" stroke="#12100E" stroke-width="7"/>
+  <circle cx="560" cy="296" r="66" fill="#2F3A33"/>
+  <circle cx="508" cy="330" r="42" fill="#6F7A5E"/>
+  <circle cx="612" cy="334" r="36" fill="#6F7A5E"/>
+  <ellipse cx="560" cy="470" rx="54" ry="12" fill="#12100E" opacity=".15"/>
+
+  <!-- lounge chair + figure -->
+  <g fill="#12100E" opacity=".7">
+    <rect x="96" y="486" width="96" height="8" rx="4"/>
+    <path d="M96 494l-10 34M192 494l10 34" stroke="#12100E" stroke-width="4"/>
+  </g>
+  <g fill="#12100E" opacity=".55">
+    <circle cx="700" cy="452" r="8"/><rect x="693" y="461" width="14" height="34" rx="6"/>
+  </g>
+
+  <!-- light shaft -->
+  <path d="M248 196h304l-70 208H318z" fill="#F6F2EA" opacity=".14"/>
+  <text x="60" y="576" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="2.5" fill="#12100E" opacity=".4">TERAS DALAM · 2024</text>
+</svg>

@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" width="1200" height="1500" role="img" aria-labelledby="hTitle">
+  <title id="hTitle">Elevasi Rumah Tumbuh: tiga massa beton, bata, dan kayu mengelilingi halaman dengan pohon.</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9E2D5"/>
+      <stop offset="1" stop-color="#E1D7C7"/>
+    </linearGradient>
+    <pattern id="hatch" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#12100E" stroke-width=".7" opacity=".18"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="1500" fill="url(#sky)"/>
+
+  <!-- drafting grid -->
+  <g stroke="#12100E" stroke-width=".5" opacity=".05">
+    <path d="M100 0V1500M200 0V1500M300 0V1500M400 0V1500M500 0V1500M600 0V1500M700 0V1500M800 0V1500M900 0V1500M1000 0V1500M1100 0V1500"/>
+    <path d="M0 100H1200M0 200H1200M0 300H1200M0 400H1200M0 500H1200M0 600H1200M0 700H1200M0 800H1200M0 900H1200M0 1000H1200M0 1100H1200M0 1200H1200M0 1300H1200M0 1400H1200"/>
+  </g>
+
+  <!-- sun -->
+  <circle cx="268" cy="300" r="186" fill="#C9704A"/>
+  <circle cx="268" cy="300" r="186" fill="none" stroke="#12100E" stroke-width="1" opacity=".12"/>
+
+  <!-- ground -->
+  <rect x="0" y="1136" width="1200" height="364" fill="#D8CFC0"/>
+  <path d="M0 1136H1200" stroke="#12100E" stroke-width="2" opacity=".7"/>
+  <g stroke="#12100E" stroke-width=".8" opacity=".22">
+    <path d="M20 1136v22M90 1136v22M160 1136v22M230 1136v22M300 1136v22M370 1136v22M440 1136v22M510 1136v22M580 1136v22M650 1136v22M720 1136v22M790 1136v22M860 1136v22M930 1136v22M1000 1136v22M1070 1136v22M1140 1136v22"/>
+  </g>
+
+  <!-- shadow of volumes -->
+  <path d="M60 1136h1040l-40 44H100z" fill="#12100E" opacity=".12"/>
+
+  <!-- MASS A -->
+  <g>
+    <rect x="60" y="500" width="380" height="636" fill="#CCC3B3"/>
+    <rect x="60" y="500" width="380" height="26" fill="#12100E"/>
+    <rect x="60" y="500" width="380" height="636" fill="none" stroke="#12100E" stroke-width="1.2" opacity=".22"/>
+    <!-- arched windows -->
+    <g fill="#2F3A33">
+      <path d="M112 700v-62a34 34 0 0 1 68 0v62z"/>
+      <path d="M220 700v-62a34 34 0 0 1 68 0v62z"/>
+      <path d="M328 700v-62a34 34 0 0 1 68 0v62z"/>
+    </g>
+    <g fill="#12100E" opacity=".3">
+      <rect x="112" y="700" width="68" height="6"/>
+      <rect x="220" y="700" width="68" height="6"/>
+      <rect x="328" y="700" width="68" height="6"/>
+    </g>
+    <!-- door + frame -->
+    <rect x="168" y="880" width="150" height="256" fill="#B4432A"/>
+    <rect x="168" y="880" width="150" height="256" fill="none" stroke="#12100E" stroke-width="1.2" opacity=".35"/>
+    <rect x="182" y="896" width="54" height="240" fill="#8E3421"/>
+    <rect x="250" y="896" width="54" height="240" fill="#8E3421"/>
+    <!-- slab joint -->
+    <path d="M60 840h380" stroke="#12100E" stroke-width="1" opacity=".18"/>
+  </g>
+
+  <!-- MASS B -->
+  <g>
+    <rect x="400" y="380" width="360" height="756" fill="#B4432A"/>
+    <rect x="400" y="380" width="360" height="24" fill="#12100E"/>
+    <rect x="400" y="380" width="360" height="756" fill="none" stroke="#12100E" stroke-width="1.2" opacity=".22"/>
+    <!-- band window -->
+    <rect x="436" y="520" width="288" height="118" fill="#2F3A33"/>
+    <g stroke="#E9E2D5" stroke-width="3" opacity=".55">
+      <path d="M508 520v118M580 520v118M652 520v118"/>
+    </g>
+    <!-- deep loggia -->
+    <rect x="436" y="760" width="288" height="376" fill="#8E3421"/>
+    <rect x="452" y="776" width="256" height="360" fill="#1B1713"/>
+    <!-- interior stair -->
+    <g fill="#E9E2D5" opacity=".9">
+      <rect x="470" y="1070" width="220" height="14"/>
+      <rect x="490" y="1036" width="200" height="14"/>
+      <rect x="510" y="1002" width="180" height="14"/>
+      <rect x="530" y="968" width="160" height="14"/>
+      <rect x="550" y="934" width="140" height="14"/>
+      <rect x="570" y="900" width="120" height="14"/>
+    </g>
+    <circle cx="700" cy="880" r="26" fill="#C9704A"/>
+    <path d="M700 880v-96" stroke="#E9E2D5" stroke-width="2" opacity=".5"/>
+    <!-- upper slot windows -->
+    <rect x="700" y="560" width="10" height="40" fill="#E9E2D5" opacity=".4"/>
+  </g>
+
+  <!-- MASS C -->
+  <g>
+    <rect x="740" y="700" width="360" height="436" fill="#2F3A33"/>
+    <rect x="722" y="676" width="396" height="24" fill="#12100E"/>
+    <rect x="740" y="700" width="360" height="436" fill="none" stroke="#12100E" stroke-width="1.2" opacity=".28"/>
+    <g fill="#E9E2D5" opacity=".92">
+      <rect x="780" y="770" width="42" height="300"/>
+      <rect x="854" y="770" width="42" height="300"/>
+      <rect x="928" y="770" width="42" height="300"/>
+      <rect x="1002" y="770" width="42" height="300"/>
+    </g>
+    <g stroke="#12100E" stroke-width="1" opacity=".2">
+      <path d="M780 830h42M780 890h42M780 950h42M780 1010h42"/>
+      <path d="M854 830h42M854 890h42M854 950h42M854 1010h42"/>
+      <path d="M928 830h42M928 890h42M928 950h42M928 1010h42"/>
+      <path d="M1002 830h42M1002 890h42M1002 950h42M1002 1010h42"/>
+    </g>
+  </g>
+
+  <!-- courtyard wall + planting -->
+  <g>
+    <rect x="60" y="1236" width="600" height="16" fill="#12100E" opacity=".82"/>
+    <rect x="60" y="1252" width="600" height="84" fill="#CCC3B3"/>
+    <rect x="60" y="1252" width="600" height="84" fill="url(#hatch)" opacity=".5"/>
+    <g fill="#6F7A5E">
+      <ellipse cx="130" cy="1236" rx="46" ry="26"/>
+      <ellipse cx="196" cy="1240" rx="30" ry="18"/>
+      <ellipse cx="560" cy="1238" rx="38" ry="20"/>
+    </g>
+  </g>
+
+  <!-- tree -->
+  <g>
+    <path d="M1000 1136v-224" stroke="#12100E" stroke-width="8"/>
+    <circle cx="1000" cy="856" r="96" fill="#2F3A33"/>
+    <circle cx="930" cy="906" r="60" fill="#6F7A5E"/>
+    <circle cx="1070" cy="910" r="52" fill="#2F3A33"/>
+    <circle cx="1006" cy="930" r="42" fill="#6F7A5E" opacity=".9"/>
+    <path d="M1000 1136h-70" stroke="#12100E" stroke-width="3" opacity=".4"/>
+  </g>
+
+  <!-- figures for scale -->
+  <g fill="#12100E" opacity=".62">
+    <circle cx="360" cy="1108" r="7"/><rect x="354" y="1116" width="12" height="30" rx="5"/>
+    <circle cx="398" cy="1112" r="6"/><rect x="393" y="1119" width="10" height="26" rx="4"/>
+  </g>
+
+  <!-- dimension line -->
+  <g stroke="#12100E" stroke-width=".8" opacity=".38">
+    <path d="M1152 380v756"/>
+    <path d="M1144 380h16M1144 1136h16"/>
+    <path d="M1120 380h64M1120 1136h64" opacity=".35"/>
+  </g>
+  <text x="1170" y="770" font-family="JetBrains Mono, monospace" font-size="13" letter-spacing="2" fill="#12100E" opacity=".48" transform="rotate(-90 1170 770)">12 600</text>
+
+  <text x="60" y="1420" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="3" fill="#12100E" opacity=".5">ELEVASI TIMUR · SKALA 1:100</text>
+  <text x="60" y="1448" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="2" fill="#12100E" opacity=".35">BETON EKSPOS — BATA TANAH LIAT — KAYU JATI</text>
+</svg>

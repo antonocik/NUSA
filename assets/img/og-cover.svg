@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="og">
+  <title id="og">NUSA — Bangunan yang tumbuh. Studio arsitektur dan interior, Jakarta.</title>
+  <rect width="1200" height="630" fill="#EFEAE1"/>
+  <g stroke="#12100E" stroke-width="1" opacity=".08">
+    <path d="M100 0V630M200 0V630M300 0V630M400 0V630M500 0V630M600 0V630M700 0V630M800 0V630M900 0V630M1000 0V630M1100 0V630"/>
+  </g>
+  <text x="70" y="96" font-family="Inter Tight, Helvetica, Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="6" fill="#12100E">NUSA<tspan fill="#696055" font-size="12" dy="-16">®</tspan></text>
+  <text x="1130" y="96" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="13" letter-spacing="2.5" fill="#5C554B">JAKARTA · 2014</text>
+
+  <text x="66" y="330" font-family="Inter Tight, Helvetica, Arial, sans-serif" font-size="150" font-weight="500" letter-spacing="-8" fill="#12100E">Bangunan</text>
+  <text x="66" y="462" font-family="Inter Tight, Helvetica, Arial, sans-serif" font-size="150" font-weight="500" letter-spacing="-8" fill="#12100E">yang</text>
+  <text x="470" y="462" font-family="Instrument Serif, Georgia, serif" font-style="italic" font-size="150" letter-spacing="-4" fill="#B4432A">tumbuh.</text>
+
+  <rect x="66" y="530" width="86" height="6" fill="#B4432A"/>
+  <text x="66" y="584" font-family="JetBrains Mono, monospace" font-size="13" letter-spacing="3" fill="#5C554B">STUDIO ARSITEKTUR &amp; INTERIOR</text>
+
+  <g transform="translate(1030 254) scale(.74)">
+    <rect x="0" y="0" width="180" height="270" fill="#CFC5B4"/>
+    <rect x="0" y="0" width="180" height="12" fill="#12100E"/>
+    <rect x="24" y="48" width="52" height="80" fill="#2F3A33"/>
+    <rect x="104" y="48" width="52" height="80" fill="#2F3A33"/>
+    <rect x="24" y="160" width="132" height="110" fill="#B4432A"/>
+  </g>
+  <circle cx="1098" cy="180" r="46" fill="#C9704A"/>
+</svg>

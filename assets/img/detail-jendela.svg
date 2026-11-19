@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" role="img" aria-labelledby="dj">
+  <title id="dj">Detail potongan jendela: dinding bata, kusen kayu, terali, dan teritis beton dengan jalur air hujan.</title>
+  <rect width="1600" height="700" fill="#F6F2EA"/>
+
+  <!-- atmosphere: sun + rain -->
+  <circle cx="1330" cy="150" r="90" fill="#C9704A" opacity=".85"/>
+  <g stroke="#12100E" stroke-width="1" opacity=".18">
+    <path d="M1180 60l-30 60M1230 40l-30 60M1280 30l-30 60M1330 30l-30 60M1380 30l-30 60M1430 40l-30 60"/>
+  </g>
+
+  <!-- wall left -->
+  <rect x="0" y="120" width="330" height="460" fill="#D8CFBE"/>
+  <g fill="#12100E" opacity=".07">
+    <path d="M0 170h330M0 220h330M0 270h330M0 320h330M0 370h330M0 420h330M0 470h330M0 520h330"/>
+  </g>
+  <g stroke="#12100E" stroke-width="1" opacity=".18">
+    <path d="M0 120h330M0 580h330M330 120v460"/>
+  </g>
+
+  <!-- opening + window -->
+  <rect x="330" y="120" width="700" height="460" fill="#E7E0D2"/>
+  <rect x="330" y="120" width="700" height="36" fill="#12100E"/>
+  <rect x="330" y="120" width="700" height="460" fill="none" stroke="#12100E" stroke-width="2" opacity=".5"/>
+
+  <!-- window joinery -->
+  <g stroke="#8A6A45" stroke-width="14" fill="none">
+    <path d="M380 156v424"/>
+    <path d="M980 156v424"/>
+    <path d="M380 156h600"/>
+    <path d="M380 300h600"/>
+  </g>
+  <g stroke="#12100E" stroke-width="1" opacity=".25">
+    <path d="M380 156v424M980 156v424M380 300h600"/>
+  </g>
+
+  <!-- glass reflection -->
+  <g fill="#8FA6A0" opacity=".35">
+    <path d="M400 170h200v118H400z"/>
+    <path d="M640 170h320v118H640z" opacity=".6"/>
+    <path d="M680 312h280v254H680z"/>
+  </g>
+  <g stroke="#EFEAE1" stroke-width="3" opacity=".5">
+    <path d="M420 280l180-110M700 280l240-110M720 560l240-240"/>
+  </g>
+
+  <!-- mullion dims -->
+  <g stroke="#12100E" stroke-width=".8" opacity=".3">
+    <path d="M1030 156h60M1030 580h60M1080 156v424"/>
+  </g>
+  <text x="1100" y="380" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="2" fill="#12100E" opacity=".45" transform="rotate(-90 1100 380)">2 400</text>
+
+  <!-- concrete lintel + overhang -->
+  <rect x="300" y="70" width="420" height="50" fill="#CFC5B4"/>
+  <rect x="300" y="70" width="420" height="10" fill="#12100E" opacity=".85"/>
+  <rect x="300" y="70" width="420" height="50" fill="none" stroke="#12100E" stroke-width="1" opacity=".25"/>
+  <path d="M300 120a40 40 0 0 1 40 40h-40z" fill="#12100E" opacity=".08"/>
+
+  <!-- rain drip -->
+  <g stroke="#12100E" stroke-width="1.2" opacity=".35" fill="none">
+    <path d="M720 120v46"/>
+    <path d="M700 178l20-12 20 12"/>
+    <path d="M720 186v90M720 300v60M720 400v60"/>
+  </g>
+  <g fill="#8FA6A0" opacity=".55">
+    <circle cx="720" cy="200" r="4"/><circle cx="718" cy="290" r="3"/><circle cx="723" cy="392" r="4"/>
+  </g>
+
+  <!-- interior floor -->
+  <rect x="330" y="520" width="700" height="60" fill="#B4432A" opacity=".85"/>
+  <rect x="330" y="520" width="700" height="8" fill="#12100E" opacity=".3"/>
+  <path d="M330 580h700" stroke="#12100E" stroke-width="2" opacity=".5"/>
+
+  <!-- right wall section -->
+  <rect x="1030" y="120" width="570" height="460" fill="#D8CFBE"/>
+  <g fill="#12100E" opacity=".07">
+    <path d="M1030 170h570M1030 220h570M1030 270h570M1030 320h570M1030 370h570M1030 420h570M1030 470h570M1030 520h570"/>
+  </g>
+  <path d="M1030 120v460" stroke="#12100E" stroke-width="2" opacity=".5"/>
+
+  <!-- labels -->
+  <g font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="2" fill="#12100E" opacity=".5">
+    <text x="40" y="640">BATA MERAH 1:2</text>
+    <text x="380" y="640">KUSEN JATI 80×120</text>
+    <text x="860" y="640">KACA BENING 8 MM + TERALI</text>
+    <text x="1180" y="640">TERITIS BETON 900 MM</text>
+  </g>
+  <path d="M0 610h1600" stroke="#12100E" stroke-width=".8" opacity=".2"/>
+
+  <text x="40" y="50" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="3" fill="#12100E" opacity=".45">DETAIL JENDELA · SKALA 1:10</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t5">
+  <title id="t5">Kolam Utara: vila berlapis beton menghadap kolam panjang dan sawah di Ubud.</title>
+  <defs>
+    <linearGradient id="p-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8FA6A0"/><stop offset="1" stop-color="#6E8B86"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#E6DECE"/>
+  <circle cx="150" cy="150" r="70" fill="#C9704A" opacity=".85"/>
+
+  <!-- hinterland -->
+  <path d="M0 300l120-60 120 60 120-70 140 70 120-50 180 50v70H0z" fill="#6F7A5E" opacity=".55"/>
+  <path d="M0 330l160-50 160 50 160-50 160 50 160-50v60H0z" fill="#2F3A33" opacity=".35"/>
+
+  <!-- villa volumes -->
+  <rect x="300" y="200" width="420" height="140" fill="#CFC5B4"/>
+  <rect x="280" y="180" width="460" height="20" fill="#12100E"/>
+  <rect x="380" y="120" width="260" height="60" fill="#B4432A"/>
+  <rect x="360" y="106" width="300" height="14" fill="#12100E"/>
+
+  <!-- glazing -->
+  <g fill="#2F3A33">
+    <rect x="320" y="228" width="90" height="112"/>
+    <rect x="430" y="228" width="120" height="112"/>
+    <rect x="572" y="228" width="120" height="112"/>
+  </g>
+  <g stroke="#E6DECE" stroke-width="3" opacity=".6">
+    <path d="M365 228v112M490 228v112M632 228v112"/>
+  </g>
+
+  <!-- deck -->
+  <rect x="0" y="340" width="800" height="26" fill="#D8CFBE"/>
+  <path d="M0 340h800" stroke="#12100E" stroke-width="1" opacity=".2"/>
+
+  <!-- pool -->
+  <rect x="0" y="366" width="800" height="140" fill="url(#p-water)"/>
+  <g stroke="#E6DECE" stroke-width="2" opacity=".45">
+    <path d="M60 400h220M340 420h160M560 396h140M120 456h140M420 466h200M620 440h100"/>
+  </g>
+  <rect x="0" y="366" width="800" height="140" fill="none" stroke="#12100E" stroke-width="1.2" opacity=".25"/>
+
+  <!-- far edge coping -->
+  <rect x="0" y="358" width="800" height="8" fill="#EFEAE1"/>
+
+  <!-- deck furniture -->
+  <g fill="#12100E" opacity=".8">
+    <rect x="40" y="300" width="90" height="8" rx="4"/>
+    <path d="M40 308l-8 32M130 308l8 32M52 300v-10h66v10" stroke="#12100E" stroke-width="4" fill="none"/>
+  </g>
+  <g>
+    <path d="M700 330v-90" stroke="#12100E" stroke-width="6"/>
+    <path d="M700 250c-34-14-58 6-58 34 22 6 44-4 58-34zM700 250c34-14 58 6 58 34-22 6-44-4-58-34z" fill="#2F3A33"/>
+  </g>
+
+  <!-- lounge -->
+  <rect x="560" y="330" width="120" height="10" fill="#B4432A"/>
+  <g fill="#12100E" opacity=".55">
+    <circle cx="620" cy="318" r="6"/><rect x="614" y="325" width="12" height="6" rx="3"/>
+  </g>
+
+  <!-- foreground planting -->
+  <g fill="#2F3A33" opacity=".9">
+    <ellipse cx="80" cy="560" rx="80" ry="34"/>
+    <ellipse cx="180" cy="576" rx="60" ry="26"/>
+    <ellipse cx="720" cy="566" rx="90" ry="32"/>
+  </g>
+
+  <text x="20" y="592" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="2.5" fill="#EFEAE1" opacity=".7">HOSPITALITI · 2025</text>
+</svg>
